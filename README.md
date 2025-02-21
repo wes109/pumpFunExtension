@@ -2,6 +2,9 @@
 
 A Chrome extension that streamlines image transfers between Discord and Pump.fun by allowing quick image attachment with a single click.
 
+![Example](https://github.com/user-attachments/assets/451b170b-4741-4349-907f-a73524a3163a)
+
+
 ## Features
 
 - One-click image transfer from Discord to Pump.fun
