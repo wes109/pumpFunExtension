@@ -9,7 +9,7 @@ Private version automatically grabs without needing for this. This Repo gives ex
 ## Features
 
 - One-click image transfer from Discord to Pump.fun
-- Automatic input field restrictions on Pump.fun
+- Automatic input field length restrictions on Pump.fun to prevent errors
 - Configurable default amount setting
 - Real-time image detection from Discord messages
 - Seamless attachment to Pump.fun's create form
