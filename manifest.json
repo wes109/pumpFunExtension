@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "Pump.fun Image Attacher",
+  "version": "1.0",
+  "description": "Attach images from Discord to pump.fun/create",
+  "permissions": [
+    "tabs",
+    "clipboardRead",
+    "clipboardWrite",
+    "storage",
+    "notifications"
+  ],
+  "host_permissions": [
+    "*://*.discord.com/*",
+    "*://*.pump.fun/*"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.pump.fun/create*",
+        "*://*.discord.com/channels/*"
+      ],
+      "js": ["content.js"]
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+} 

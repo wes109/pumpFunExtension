@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            width: 200px;
+            padding: 10px;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .input-group {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+        input {
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            padding: 8px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 5px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="input-group">
+            <label for="amountInput">Amount to autofill:</label>
+            <input type="number" id="amountInput" placeholder="Default: 5">
+        </div>
+        <div class="input-group">
+            <label for="delayInput">Delay between images (seconds):</label>
+            <input type="number" id="delayInput" placeholder="Default: 5">
+        </div>
+        <button id="applyButton">Apply</button>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html> 
